@@ -34,7 +34,7 @@ If you don't like my/official configuration you can change it in [this file](htt
 |Power(3.3V or 5V)|Power(3.3V or 5V)|optional|
 
 ### Openocd software
-The openocd software for RP2040 is a special one, you must build it from its [source code](https://github.com/raspberrypi/openocd). To build it, the official commands suggested by raspberypi are:
+The openocd software for RP2040 is a special one, you must build it from its [source code](https://github.com/raspberrypi/openocd). To build it, the official commands suggested by raspberrypi are:
 ```
 sudo apt install automake autoconf build-essential texinfo libtool libftdi-dev libusb-1.0-0-dev
 git clone https://github.com/raspberrypi/openocd.git --branch rp2040 --depth=1 --no-single-branch
