@@ -1,0 +1,2 @@
+# pico probe
+ATTRS{idVendor}=="2e8a", ATTRS{idProduct}=="0004", MODE="664", GROUP="plugdev"
