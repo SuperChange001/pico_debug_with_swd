@@ -93,8 +93,8 @@ Info : Listening on port 3333 for gdb connections
 1. Go to File>Setting>Embedded Development, change the openOCD Location to its executable file on your PC, should be under the `PATH_OPENOCD_SOURCE_CODE/src/openocd`.
    - There is a button called test, you can click it to check if you configured it correctly.
 2. Edit the run/debug configuration
-   ![run_debug_configurations](documents/edit_config.png)
-   ![create_new_configuration](documents/add_new_configure.png)
-   ![add_configure_of_2040](documents/add_config_of_rp2040.png)
+   ![run_debug_configurations](https://github.com/SuperChange001/pico_debug_with_swd/blob/master/documents/edit_config.png)
+   ![create_new_configuration](https://github.com/SuperChange001/pico_debug_with_swd/blob/master/documents/add_new_configure.png)
+   ![add_configure_of_2040](https://github.com/SuperChange001/pico_debug_with_swd/blob/master/documents/add_config_of_rp2040.png)
 3. Now you can flash RP2040 by click a button.
    
