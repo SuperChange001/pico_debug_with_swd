@@ -89,7 +89,7 @@ Info : Listening on port 3333 for gdb connections
    ```
    - plug out the debugger and replug it in again, now you can execute it without su
 
-### Work openocd with Clion
+## Work openocd with Clion
 1. Go to File>Setting>Embedded Development, change the openOCD Location to its executable file on your PC, should be under the `PATH_OPENOCD_SOURCE_CODE/src/openocd`.
    - There is a button called test, you can click it to check if you configured it correctly.
 2. Edit the run/debug configuration
@@ -98,3 +98,7 @@ Info : Listening on port 3333 for gdb connections
    ![add_configure_of_2040](https://github.com/SuperChange001/pico_debug_with_swd/blob/master/documents/add_config_of_rp2040.png)
 3. Now you can flash RP2040 by click a button.
    
+## Acknowledgement
+1. This work was inspired by [this tutorial](https://www.digikey.de/en/maker/projects/raspberry-pi-pico-and-rp2040-cc-part-2-debugging-with-vs-code/470abc7efb07432b82c95f6f67f184c0?utm_adgroup=General&utm_source=google&utm_medium=cpc&utm_campaign=Dynamic%20Search_EN_RLSA_Site%20Visitor&utm_term=&productid=&gclid=CjwKCAjwjtOTBhAvEiwASG4bCO5ZrciK4GKWSvYaCMsHhGXzWKo_XRwZu5Jmpcpx9cw1yDE4YP94khoCtvoQAvD_BwE) from [ShawnHymel](https://www.digikey.de/en/maker/profiles/72825bdd887a427eaf8d960b6505adac).
+2. Of course, most of the instructions and commands can also be found in the [documentation of RP2040](https://datasheets.raspberrypi.com/rp2040/hardware-design-with-rp2040.pdf).
+3. The most important part of enabling the CLion to access the customed `openocd` debugger is to add the `udev` rule. I followed [one answer from StackOverflow](https://stackoverflow.com/questions/41066653/openocd-error-libusb-open-failed-with-libusb-error-not-supported).
